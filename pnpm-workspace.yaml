@@ -1,11 +1,13 @@
+catalogMode: prefer
+ignoreWorkspaceRootCheck: true
+shellEmulator: true
+trustPolicy: no-downgrade
+
 packages:
   - playground
   - docs
   - packages/*
   - examples/*
-
-ignoreWorkspaceRootCheck: true
-shellEmulator: true
 
 catalogs:
   cli:
@@ -14,6 +16,7 @@ catalogs:
     bumpp: ^10.3.1
     eslint: ^9.39.1
     lint-staged: ^16.2.6
+    publint: ^0.3.17
     simple-git-hooks: ^2.13.1
     tsdown: ^0.16.0
     tsx: ^4.20.6
@@ -28,6 +31,7 @@ catalogs:
     yaml: ^2.8.1
   types:
     '@types/node': ^24.10.0
+
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
