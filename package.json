@@ -13,16 +13,6 @@
   "bugs": "https://github.com/hackycy/pkg-placeholder/issues",
   "keywords": [],
   "sideEffects": false,
-  "exports": {
-    ".": "./dist/index.mjs",
-    "./package.json": "./package.json"
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "nr -r build",
     "dev": "nr -r dev",
